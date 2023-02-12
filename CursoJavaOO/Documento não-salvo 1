@@ -1,0 +1,20 @@
+18h43 - 11-02-23
+
+wireframe.cc
+
+02 - Paradigma procedural vs Objetos
+
+programação procedural x programação orientada a objetos
+
+Para que várias equipes consigam trabalhar em um mesmo projeto, é necessário que as responsabilidades de cada código estejam bem definidas e claras, evitando conflitos na hora de realizar mudanças e evoluções. Código com responsabilidades coesas é sinal do paradigma OO.
+
+paradigma da orientação a objetos, que é criar unidades de código que combinem os dados associados a determinada informação com as funcionalidades aplicadas aqueles dados (por exemplo, CPF + validação). São os atributos e métodos.
+
+Uma classe é uma especificação de um tipo, definindo atributos e comportamentos.
+
+Um objeto é uma instância de uma classe onde podemos definir valores para seus atributos.
+
+Para criar uma instância precisamos usar a palavra chave new
+
+
+
