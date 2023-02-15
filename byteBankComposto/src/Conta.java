@@ -4,7 +4,7 @@ public class Conta {
 	double saldo;
     int agencia;
     int numero;
-    String titular;
+    Cliente titular;
 
     
     //método deposita:  //void é o retorno
