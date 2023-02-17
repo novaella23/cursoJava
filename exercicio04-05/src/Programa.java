@@ -9,7 +9,7 @@ public class Programa {
         p.endereco = new Endereco();
         p.endereco.logradouro  = "Aveninda XYZ";
         
-       
+       System.out.println(p.endereco.complemento);
     
         
     }
