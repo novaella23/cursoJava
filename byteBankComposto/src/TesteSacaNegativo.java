@@ -7,7 +7,7 @@ public class TesteSacaNegativo {
 		Conta conta = new Conta();
 		conta.deposita(100);
 		System.out.println(conta.saca(0));
-		System.out.println(conta.mostraSaldo());
+		System.out.println(conta.getSaldo());
 
 		//SOBRE ENCAPSULAMENTO:
 		//para não acessar o tributo direto, tem que mudar o tributo

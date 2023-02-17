@@ -1,18 +1,17 @@
 
 
 public class Conta {
-	private double saldo;//ATRIBUTO privado não pode ser LIDO ou MODIFICADO fora da classe, apenas dentro da classe
-    int agencia;
-    int numero;
-    Cliente titular;
+	private double saldo;//ATRIBUTOs privados não podem ser LIDOs ou MODIFICADOs fora da classe, apenas dentro da classe
+    private int agencia;
+    private int numero;
+    private Cliente titular;
 
-    //já faz p SETTER
+    
     //método deposita:  //void é o retorno
     void deposita(double valor) {
 	this.saldo += valor;
     }
     
-    //já faz p SETTER
     //método saca:
     public boolean saca(double valor) {
     	if(this.saldo>=valor&&valor>=0) {
@@ -26,8 +25,7 @@ public class Conta {
     		return false;
     	}
     
-   //já faz p SETTER:
-    public boolean transfere(double valor, Conta destino) {
+   public boolean transfere(double valor, Conta destino) {
 	   if (this.saldo>=valor) {
 		   this.saldo -= valor;
 		   destino.deposita(valor);
@@ -42,4 +40,34 @@ public class Conta {
 	public double getSaldo() {
 		return this.saldo;
 	}
+
+	public int getNumero() {
+		return this.numero;
+	}
+	
+	//os set são void, pois não devolvem nada, apenas alteram.
+	public void setNumero(int numero){
+		this.numero=numero;
+	}
+	
+	//this é do atributo
+	public int getAgencia() {
+		return this.agencia;
+	}
+	
+	public void setAgencia(int agencia) {
+		this.agencia = agencia;
+	}
+
+	
+	public void setTitular(Cliente titular) {
+		this.titular = titular;
+	}
+	
+	public Cliente getTitular() {
+		return titular;
+	}
+	
 }
+
+
