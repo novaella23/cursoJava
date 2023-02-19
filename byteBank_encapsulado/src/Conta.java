@@ -4,7 +4,7 @@ public class Conta {
 	private double saldo;//ATRIBUTOs privados não podem ser LIDOs ou MODIFICADOs fora da classe, apenas dentro da classe
     private int agencia;
     private int numero;
-    private Cliente titular;
+    private Cliente titular;//importante, pois dá o vínculo entre Conta e Cliente!!!
 
     
     //método deposita:  //void é o retorno
@@ -25,6 +25,7 @@ public class Conta {
     		return false;
     	}
     
+  //método transfere:
    public boolean transfere(double valor, Conta destino) {
 	   if (this.saldo>=valor) {
 		   this.saldo -= valor;
