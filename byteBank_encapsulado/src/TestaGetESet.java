@@ -5,10 +5,10 @@ public class TestaGetESet {
 	public static void main(String[] args) {
 		
 		//CRIANDO UMA CONTA conta
-		Conta conta = new Conta();
+		Conta conta = new Conta(1, 1337);
 		
 		//colocando um número na conta
-		conta.setNumero(1337);
+		//conta.setNumero(1337);
 		System.out.println(conta.getNumero());
 		
 		//CRIANDO UM CLIENTE paulo
@@ -18,7 +18,7 @@ public class TestaGetESet {
 		paulo.setNome("paulo silveira");
 		
 		//ASSOCIAÇÃO DE CONTA COM CLIENTE
-		//aponta do conta.setTitular para o paulo Cliente.
+		//faz o vínculo da conta.setTitular com paulo Cliente.
 		conta.setTitular(paulo);
 		
 	System.out.println(conta.getTitular().getNome());
@@ -33,7 +33,7 @@ public class TestaGetESet {
 	System.out.println(conta.getTitular());
 	System.out.println(paulo);
 	
+	System.out.println("numero de contas: "+ Conta.getTotal());
 	
 	}
-	
 }
