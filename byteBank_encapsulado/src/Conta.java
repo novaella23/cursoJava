@@ -4,10 +4,11 @@ public class Conta {
 	private double saldo;//ATRIBUTOs privados não podem ser LIDOs ou MODIFICADOs fora da classe, apenas dentro da classe
     private int agencia;
     private int numero;
-    private Cliente titular;//importante, pois dá o vínculo entre Conta e Cliente!!!
+    private Cliente titular;//relacionamento entre classes / composição / herança /a classe Conta;
     private static int total=0;//STATIC se refere à classe Conta e não ao objeto (como os demais atributos que se referem ao objeto);
     //STATIC não é da instância, é da classe Conta;
 
+    //método deposita:  //void é o retorno
    
     //CONSTRUTOR/inicializador:
     //a inicialização de atributos é a principal responsabilidade do construtor.

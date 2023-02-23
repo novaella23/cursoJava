@@ -1,2 +1,2 @@
-INDEX VERSION 1.131+C:\Users\elainef\Desktop\estudo_programacao\Java_Alura\cursoJava\.metadata\.plugins\org.eclipse.jdt.core
+INDEX VERSION 1.131+/home/elaine/Java_Alura_wrkspc/.metadata/.plugins/org.eclipse.jdt.core
 1865797976.index
