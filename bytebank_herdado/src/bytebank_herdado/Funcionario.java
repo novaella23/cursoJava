@@ -1,5 +1,7 @@
 package bytebank_herdado;
-
+// CLASSE MAE
+//BASE CLASS
+//SUPER CLASS
 public class Funcionario {
 	private String nome;
 	private String cpf;
