@@ -1,12 +1,12 @@
-public class Funcionario {
+//não pode mais instanciar objetos dessa classe, porque é abstrata.
+public abstract class Funcionario { //abstract é herança
 
 	private String nome;
 	private String cpf;
 	private double salario;
 
-	public double getBonificacao() {
-		return this.salario * 0.1;
-	}
+	//método abstrato , sem corpo, não há implementação:
+	public abstract double getBonificacao();
 
 	public String getNome() {
 		return nome;
