@@ -1,9 +1,0 @@
-public class Cliente {
-    String nome;
-    private String cpf;
-    int idade;
-
-    public String cadastraCPF(){
-    	this.cpf = String incluiCPF;
-    }
-}
