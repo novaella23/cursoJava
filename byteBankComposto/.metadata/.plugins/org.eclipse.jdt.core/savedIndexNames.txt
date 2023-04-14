@@ -1,2 +1,0 @@
-INDEX VERSION 1.131+C:\Users\Elaine\Desktop\Java_Alura\cursoJava\byteBankComposto\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
