@@ -16,7 +16,7 @@ public class PrincipalComBusca {
 
         String busca = leitura.nextLine();
 
-      //AO ESCREVER UM NOME COM ESPAÇOS... FAZER ALGO QUE AO PEGAR O NOME
+      //AO ESCREVER UM NOME COM ESPAÇOS... substituir os espaços por + para funcionar no site
 
         String buscaFormatado = busca.replaceAll(" ","+");
 
